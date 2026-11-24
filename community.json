@@ -1029,6 +1029,17 @@
     "subcategory": "access"
   },
   {
+    "id": "dsh-persona-continuity",
+    "name": "人格续忆 Bot",
+    "nameEn": "Persona Continuity Bot",
+    "author": "shinji00222",
+    "description": "给 DeepSeek Harness 的每个人格一份独立的本地 Markdown 跨会话记忆（无需 Git）：支持普通会话直接选人格与新建人格、自动提炼去重、凭据自动脱敏、历史会话一键导入与工作区旧对话召回；数据全本地存储在 $DSH_HOME/persona-continuity/memories/，普通/子会话/无痕会话默认隔离。也支持合并 Tobs Bot 模式（私聊工作过程时间轴、微信直觉多人格群聊、全体工作区授权）。",
+    "descriptionEn": "Per-persona cross-session local Markdown memory (no Git required) for DeepSeek Harness: pick or create personas directly in standard sessions, automatic distillation and deduplication, credential filtering, one-click historical session import, and workspace history recall. All data stays local under $DSH_HOME/persona-continuity/memories/, with standard, sub-session, and incognito sessions isolated by default. Also supports an optional Tobs Bot bundle with DM work-process timeline, multi-persona group chat, and group workspace authorization.",
+    "repo": "https://github.com/shinji00222/dsh-persona-continuity-bot",
+    "category": "knowledge",
+    "subcategory": "memory"
+  },
+  {
     "id": "dsh-pet-quota",
     "name": "宠物额度气泡",
     "nameEn": "Pet Quota Bubble",
